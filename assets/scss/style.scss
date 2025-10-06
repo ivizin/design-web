@@ -1,2 +1,3 @@
-@import 'layout';
-@import 'style';
+@use 'layout.scss';
+@use 'design.scss';
+@use 'responsive.scss';

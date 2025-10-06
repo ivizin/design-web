@@ -1,6 +1,6 @@
-
-
-
+/**
+regras de break points
+*/
 
 $break-desktop: 1200px;
 $break-tablet: 900px;
@@ -26,7 +26,7 @@ $break-watch: 400px;
     align-items: flex-start;
 }
 .alinhar-h-direita{
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 .alinhar-v-direita{
     align-items: flex-end;
@@ -36,4 +36,8 @@ $break-watch: 400px;
 }
 .alinhar-linha{
     flex-direction: row;
+}
+
+.dividir-extremidades{
+    justify-content: space-between;
 }
