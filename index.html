@@ -1,99 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Landipage - Version 1.0</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <title>Landinpage - InfoWebeti</title>
 </head>
 <body>
-    <header class="container mx-auto">
-        <figure>
-            <img src="img/logo.svg" alt="Logo da Infoweb by turma Infowebeti">
-        </figure>
-        <nav>
-            <menu>
-                <li>
-                    <a href="Sobre"></a>Sobre
-                </li>
-                <li>
-                    <a href="Professores"></a>Professores
-                </li>
-                <li>
-                    <a href="Alunos"></a>Alunos
-                </li>
-                <li>
-                    <a href="Projetos"></a>Projetos
-                </li>
-                <li>
-                    <a href="Documentos"></a>Docuemntos
-                </li>
-            </menu>
-        </nav>
-    </header>
 
-    <main class="container mx-auto">
+  <header class="container max-w-7xl mx-auto flex justify-between py-8 items-center">
+    <figure>
+      <img src="assets/logo.svg" alt="Logo de InfoWeb by turma InfoWebeti">
+    </figure>
+    <nav>
+      <menu class="flex gap-8 text-gray-500">
+        <li><a class="hover:bg-sky-700 hover:text-white" href="#sobre">Sobre</a></li>
+        <li><a class="hover:bg-sky-700 hover:text-white" href="#professores">Professores</a></li>
+        <li><a class="hover:bg-sky-700 hover:text-white" href="#alunos">Alunos</a></li>
+        <li><a class="hover:bg-sky-700 hover:text-white" href="#projetos">Projetos</a></li>
+        <li><a class="hover:bg-sky-700 hover:text-white bg-black rounded-sm" href="#documentos">Documentos</a></li>
+      </menu>
+    </nav>
+  </header>
+  <main class="container max-w-7xl mx-auto">
 
-        <!-- Hero -->
-        <section class="p-10 tg-gray-500 rounded-lg">
-            <h1>Depois de muita espera, ela finalmente chegou!</h1>
-            <p>O formulário para aquisição da camisa está oficialmente aberto! Com um design original e dois modelos únicos, você vai poder mostrar todo o seu orgulho de fazer parte dessa turma incrível!</p>
+    <!-- hero -->
+    <section class="flex items-center flex-col p-20 bg-gray-100 rounded-lg">
+      <h1 class="text-5xl max-w-140 font-semibold">Depois de muita espera, ela finalmente chegou!</h1>
+      <p class="my-10 max-w-140">O formulário para aquisição da camisa está oficialmente aberto! Com um design original e dois modelos únicos, você vai poder mostrar todo o seu orgulho de fazer parte dessa turma incrível!</p>
 
-            <div class="center">
-                <a href="#" class="">Ser feliz agora</a>
-                <a href="#" class="">Ficar triste</a>
-            </div>
+      <div class="flex justify-center gap-4">
+        <a href="#" class="bg-sky-700 text-white py-4 px-8 rounded-lg">Ser feliz agora</a>
+        <a href="#" class="bg-sky-700 text-white py-4 px-8 rounded-lg">Ficar triste</a>
+      </div>
+    </section>
 
-        </section>
+    <!-- logos -->
+     <section>
+      <ul class="flex gap-20 mt-10 ml-10">
+        <li><img src="assets/nasa.svg" alt=""></li>
+        <li><img src="assets/spotify.svg" alt=""></li>
+        <li><img src="assets/google.svg" alt=""></li>
+        <li><img src="assets/facebook.svgv" alt=""></li>
+        <li><img src="assets/instagram.svg" alt=""></li>
+        <li><img src="assets/microsoft.svg" alt=""></li>
+        <li><img src="assets/dropbox.svg" alt=""></li>
+      </ul>
+     </section>
+  
+    <!-- destaques -->
+     <section class="flex gap-20 my-20 text-gray-500">
+      <div class="flex gap-4 items-baseline">
+        <i class="fa-solid fa-chevron-right text-sm"></i>
+        <div>
+          <strong>Ela é bonita</strong>
+          <p>Além de linda, ela é a mais top.</p>
+        </div>
+      </div>
+      
+      <div class="flex gap-4 items-baseline">
+        <i class="fa-solid fa-chevron-right text-sm"></i>
+        <div>
+          <strong>O azul destaque</strong>
+          <p>O azul royal ficou para trás. Contemple o novo azul esmeralda.</p>
+        </div>
+      </div>
+      <div class="flex gap-4 items-baseline">
+        <i class="fa-solid fa-chevron-right text-sm"></i>
+        <div>
+          <strong>Webeti</strong>
+          <p>O nosso mascote é um gênio da informática.</p>
+        </div>
+      </div>
+     </section>
+     <!-- mockup da camiseta da turma -->
+     <figure><img src="assets/mockup.png" class="w-full" alt="Imagem destaque da camiseta"></figure>
+     <h2 class="flex text-5xl mx-auto font-semibold max-w-140 p-4">Alunos que já compraram.</h2>
+     <p class="my-10 max-w-140 mx-auto">Junte-se aos milhares de alunos de info que já estão vestindo a nossa camiseta linda e maravilhosa.</p>
 
-        <!-- Jogos -->
-         <section>
-            <ul class="flex">
-                <li><img src="img/logo1.jpg" alt=""></li>
-                <li><img src="img/logo2.jpg" alt=""></li>
-                <li><img src="img/logo3.jpg" alt=""></li>
-                <li><img src="img/logo4.jpg" alt=""></li>
-                <li><img src="img/logo5.jpg" alt=""></li>
-                <li><img src="img/logo6.jpg" alt=""></li>
-                <li><img src="img/logo7.jpg" alt=""></li>
-            </ul>
-         </section>
-
-        <!-- Destaques -->
-         <section>
-            <div>
-                <strong>Ela é bonita</strong>
-                <span>Além de linda, ela é a mais top</span>
-            </div>
-            <div>
-                <strong>O azul destaque</strong>
-                <span>O azul royal ficou para trás. Complete o novo azul esmeralda.</span>
-            </div>
-            <div>
-                <strong>Webeti</strong>
-                <span>O nosso mascote é um gênio da informática.</span>
-            </div>
-         </section>
-        <!-- Mockup da camiseta da turma -->
-         <figure><img src="img/mockup.png" alt=""></figure>
-        <h2>Alunos que já compraram.</h2>
-        <p>Junte aos milhares de alunos de info que já estão vestindo a nossa camiseta linda e maravilhosa.</p>
-
-        <!-- Metricas -->
-        <section class="grid grid-cols-3 gap-4 text-center my-10">
-            <div class="border">
-                <h3 class="text-5xl">243+</h3>
-                <span>Alunos felizes</span>
-            </div>
-            <div class="border">
-                <h3 class="text-5xl">38.393+</h3>
-                <span>Alunos adquirido</span>
-            </div>
-            <div class="border">
-                <h3 class="text-5xl">154+</h3>
-                <span>Alunos tristes</span>
-            </div>
-        </section>
-    </main>
+     <!-- métricas -->
+     <section class="grid grid-cols-3 gap-4 text-center my-10">
+      <div>
+        <h3 class="text-5xl font-semibold">243+</h3>
+        <span>Alunos felizes</span>
+      </div>
+      <div>
+        <h3 class="text-5xl font-semibold">38.3903+</h3>
+        <span>Alunos adquirindo</span>
+      </div>
+      <div>
+        <h3 class="text-5xl font-semibold">154+</h3>
+        <span>Alunos tristes</span>
+      </div>
+     </section>
+  </main>
+  
 </body>
 </html>
