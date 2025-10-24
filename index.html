@@ -1,101 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-  <title>Landinpage - InfoWebeti</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Lista 4</title>
 </head>
-<body>
+<body class="bg-slate-900">
+    <main>
+        <section class="grid md:grid-cols-3 gap-6 m-5 ">
+            <div class="rounded-xl hover:shadow-lg hover:-translate-y-1 transition-transform duration-300 cursor-pointer focus:ring-2 bg-blue-500 text-center p-8">
+                <h1 class="text-indigo-100 font-bold text-4xl mb-6">Froakie</h1>
+                <figure>
+                    <img src="assets/froakie.image.png" alt="Froakie" class="rounded-lg mb-6">
+                </figure>
+                <p class="text-stone-200">Froakie é um Pokémon do tipo Água, introduzido na sexta geração dos jogos Pokémon (Pokémon X e Y). Ele é conhecido por sua aparência de pequeno sapo azul e por ser o Pokémon inicial da região de Kalos. Ágil e inteligente, Froakie usa sua velocidade para enganar os oponentes e desviar facilmente de ataques.
 
-  <header class="container max-w-7xl mx-auto flex justify-between py-8 items-center">
-    <figure>
-      <img src="assets/logo.svg" alt="Logo de InfoWeb by turma InfoWebeti">
-    </figure>
-    <nav>
-      <menu class="flex gap-8 text-gray-500">
-        <li><a class="hover:bg-sky-700 hover:text-white" href="#sobre">Sobre</a></li>
-        <li><a class="hover:bg-sky-700 hover:text-white" href="#professores">Professores</a></li>
-        <li><a class="hover:bg-sky-700 hover:text-white" href="#alunos">Alunos</a></li>
-        <li><a class="hover:bg-sky-700 hover:text-white" href="#projetos">Projetos</a></li>
-        <li><a class="hover:bg-sky-700 text-white bg-black rounded-sm" href="#documentos">Documentos</a></li>
-      </menu>
-    </nav>
-  </header>
-  <main class="container max-w-7xl mx-auto">
+                  Uma de suas habilidades mais interessantes é o uso da espuma protetora que cobre seu pescoço e suas costas — ela serve como uma espécie de amortecedor que o protege de golpes. Froakie também é capaz de criar bolhas de água para atacar seus inimigos, utilizando golpes como Water Pulse e Bubble.
+                  
+                  Quando evolui, Froakie se transforma em Frogadier e depois em Greninja, um dos Pokémon mais populares da franquia, famoso por sua forma elegante e por sua versão especial, o Greninja Ash, que aparece no anime. Uma curiosidade é que Froakie representa a combinação perfeita entre leveza e força, sendo o símbolo da disciplina e da estratégia entre os treinadores de Kalos.</p>
+                <button class="font-medium mt-6 rounded-lg bg-white hover:shadow-lg hover:scale-105 transition duration-500 py-2 px-6">Explore mais</button>
+            </div>
+            <div class="rounded-xl hover:shadow-lg hover:-translate-y-1 transition-transform duration-300 cursor-pointer focus:ring-2 bg-blue-950 text-center p-8">
+                <h1 class="text-blue-100 font-bold text-4xl mb-6">Frogadier</h1>
+                <figure>
+                    <img src="assets/frogadier.image.jpg" alt="Frogadier" class="rounded-lg mb-6">
+                </figure>
+                <p class="text-stone-100">Frogadier é a forma evoluída de Froakie e é um Pokémon do tipo Água, conhecido por sua agilidade e precisão em batalha. Ele é ágil como um verdadeiro ninja, movendo-se silenciosamente e atacando seus inimigos com golpes rápidos e certeiros. Sua aparência lembra um sapo esguio, e a espuma que antes era apenas um colar em Froakie agora cobre parte de seu corpo, ajudando-o a se camuflar e proteger-se.
 
-    <!-- hero -->
-    <section class="flex items-center flex-col p-20 bg-gray-100 rounded-lg">
-      <h1 class="text-5xl max-w-140 font-semibold">Depois de muita espera, ela finalmente chegou!</h1>
-      <p class="my-10 max-w-140">O formulário para aquisição da camisa está oficialmente aberto! Com um design original e dois modelos únicos, você vai poder mostrar todo o seu orgulho de fazer parte dessa turma incrível!</p>
+                  Frogadier é capaz de lançar bolhas de água com tamanha força e precisão que pode atingir um alvo a mais de trinta metros de distância. No anime e nos jogos, ele demonstra grande inteligência tática, observando o ambiente antes de atacar e sempre procurando o ponto fraco do adversário.
+                  
+                  Quando atinge todo o seu potencial, Frogadier evolui para Greninja, tornando-se ainda mais veloz e poderoso. Essa linha evolutiva é muito admirada pelos treinadores por representar o equilíbrio entre técnica, velocidade e estratégia, características essenciais para um verdadeiro mestre Pokémon.
+                  </p>
+                <button class="font-medium mt-6 rounded-lg bg-white hover:shadow-lg hover:scale-105 transition duration-500 py-2 px-6">Explore mais</button>
+            </div>
+            <div class="rounded-xl hover:shadow-lg hover:-translate-y-1 transition-transform duration-300 cursor-pointer focus:ring-2 bg-stone-900 text-center p-8">
+                <h1 class="text-blue-100 font-bold text-4xl mb-6">Greninja</h1>
+                <figure>
+                    <img src="assets/ashgreninja.image.png" alt="Greninja" class="rounded-lg mb-6">
+                </figure>
+                <p class="text-stone-100">Greninja é a forma final evoluída de Froakie e Frogadier, um Pokémon do tipo Água e Sombrio conhecido por sua incrível velocidade, agilidade e estilo de combate inspirado em um ninja. Ele é um dos Pokémon mais populares e carismáticos da franquia, tanto nos jogos quanto no anime.
 
-      <div class="flex justify-center gap-4">
-        <a href="#" class="bg-sky-700 text-white py-4 px-8 rounded-lg">Ser feliz agora</a>
-        <a href="#" class="bg-sky-700 text-white py-4 px-8 rounded-lg">Ficar triste</a>
-      </div>
-    </section>
+                  Greninja utiliza sua língua como uma espécie de cachecol, o que o torna facilmente reconhecível. Ele é capaz de se mover tão rápido que parece desaparecer, atacando de surpresa com golpes precisos e silenciosos. Entre seus ataques mais famosos estão Water Shuriken, em que lança shurikens feitas de água, e Night Slash, um golpe sombrio e cortante.
+                  
+                  Uma curiosidade marcante é sua forma especial chamada Greninja Ash, resultado de uma forte ligação entre Greninja e seu treinador, Ash Ketchum. Nessa forma, eles compartilham pensamentos e emoções, tornando seus ataques ainda mais poderosos. Greninja simboliza a união entre técnica, inteligência e trabalho em equipe — qualidades que o tornaram um dos Pokémon mais admirados de todos os tempos.
+                  </p>
+                <button class="font-medium mt-6 rounded-lg bg-white hover:shadow-lg hover:scale-105 transition duration-500 mt-10 py-2 px-6">Explore mais</button>
+            </div>
+        </section>
+    </main>
 
-    <!-- logos -->
-     <section>
-      <ul class="flex gap-20 mt-10 ml-10">
-        <li><img src="assets/nasa.svg" alt=""></li>
-        <li><img src="assets/spotify.svg" alt=""></li>
-        <li><img src="assets/google.svg" alt=""></li>
-        <li><img src="assets/facebook.svgv" alt=""></li>
-        <li><img src="assets/instagram.svg" alt=""></li>
-        <li><img src="assets/microsoft.svg" alt=""></li>
-        <li><img src="assets/dropbox.svg" alt=""></li>
-      </ul>
-     </section>
-  
-    <!-- destaques -->
-     <section class="flex gap-20 my-20 text-gray-500">
-      <div class="flex gap-4 items-baseline">
-        <i class="fa-solid fa-chevron-right text-sm"></i>
-        <div>
-          <strong>Ela é bonita</strong>
-          <p>Além de linda, ela é a mais top.</p>
-        </div>
-      </div>
-      
-      <div class="flex gap-4 items-baseline">
-        <i class="fa-solid fa-chevron-right text-sm"></i>
-        <div>
-          <strong>O azul destaque</strong>
-          <p>O azul royal ficou para trás. Contemple o novo azul esmeralda.</p>
-        </div>
-      </div>
-      <div class="flex gap-4 items-baseline">
-        <i class="fa-solid fa-chevron-right text-sm"></i>
-        <div>
-          <strong>Webeti</strong>
-          <p>O nosso mascote é um gênio da informática.</p>
-        </div>
-      </div>
-     </section>
-     <!-- mockup da camiseta da turma -->
-     <figure><img src="assets/mockup.png" class="w-full" alt="Imagem destaque da camiseta"></figure>
+    <!-- Poderia ser aplicado na mostra de produtos de alguma loja, como Amazon, Shoppe, e etc. -->
 
-     <h2 class="text-5xl mx-auto font-semibold p-4 text-center">Alunos que já compraram.</h2>
-     <p class="my-2 max-w-140 mx-auto">Junte-se aos milhares de alunos de info que já estão vestindo a nossa camiseta linda e maravilhosa.</p>
-
-     <!-- métricas -->
-     <section class="grid grid-cols-3 gap-4 text-center my-10">
-      <div>
-        <h3 class="text-5xl font-semibold">243+</h3>
-        <span>Alunos felizes</span>
-      </div>
-      <div>
-        <h3 class="text-5xl font-semibold">38.3903+</h3>
-        <span>Alunos adquirindo</span>
-      </div>
-      <div>
-        <h3 class="text-5xl font-semibold">154+</h3>
-        <span>Alunos tristes</span>
-      </div>
-     </section>
-  </main>
-  
 </body>
 </html>
