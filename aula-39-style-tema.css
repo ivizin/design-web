@@ -1,0 +1,35 @@
+/* Arquivo: aula-39-style-tema.css */
+
+[data-theme="info-webeti"] {
+
+   
+  color-scheme: "info-webeti";
+  --color-base-100: oklch(25.33% 0.016 252.42);
+  --color-base-200: oklch(23.26% 0.014 253.1);
+  --color-base-300: oklch(21.15% 0.012 254.09);
+  --color-base-content: oklch(97.807% 0.029 256.847);
+  --color-primary: #5fcbba;
+  --color-primary-content: oklch(96% 0.018 272.314);
+  --color-secondary: oklch(86% 0.127 207.078);
+  --color-secondary-content: oklch(94% 0.028 342.258);
+  --color-accent: oklch(60% 0.118 184.704);
+  --color-accent-content: oklch(98% 0.014 180.72);
+  --color-neutral: oklch(27% 0.006 286.033);
+  --color-neutral-content: oklch(92% 0.004 286.32);
+  --color-info: oklch(58% 0.158 241.966);
+  --color-info-content: oklch(97% 0.013 236.62);
+  --color-success: oklch(60% 0.126 221.723);
+  --color-success-content: oklch(37% 0.077 168.94);
+  --color-warning: oklch(85% 0.138 181.071);
+  --color-warning-content: oklch(41% 0.112 45.904);
+  --color-error: oklch(71% 0.194 13.428);
+  --color-error-content: oklch(27% 0.105 12.094);
+  --radius-selector: 2rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.28125rem;
+  --size-field: 0.21875rem;
+  --border: 1.5px;
+  --depth: 1;
+  --noise: 0;
+}
