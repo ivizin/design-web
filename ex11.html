@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="flex justify-center items-center flex-col m-10 gap-5"
+    x-data="{ show: false }">
+        <button @click="show = true" class="btn btn-error">Ver spoiler</button>
+        <p x-show="show" class="text-center bg-blue-500 p-3 rounded-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eos optio illo cupiditate consequatur harum hic sit ipsa facilis modi debitis quod soluta, ipsum impedit doloribus est molestiae veritatis quis corporis eius? Dignissimos voluptatem, ab illo pariatur quo exercitationem illum ut. Obcaecati?</p>
+    </div>
+</body>
+
+</html>

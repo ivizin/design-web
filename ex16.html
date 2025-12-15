@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body>
+    <div x-data="{tab: 1}">
+        <div>
+            <button @click="tab = 1">Tab 1</button>
+            <button @click="tab = 2">Tab 2</button>
+            <button @click="tab = 3">Tab 3</button>
+        </div>
+
+        <div x-show="tab === 1"><br>Informática</div>
+        <div x-show="tab === 2"><br>Eletrônica</div>
+        <div x-show="tab === 3"><br>Comércio</div>
+    </div>
+</body>
+</html>
